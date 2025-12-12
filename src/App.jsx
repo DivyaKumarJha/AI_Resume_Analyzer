@@ -140,7 +140,7 @@ function App() {
             <div className="upload-zone">
               <div className="text-4xl sm:text-5xl lg:text-6xl mb-4">
                 <h3 className="text-xl sm:text-2xl text-slate-200 mb-2">
-                  📄 Uplaod your resume (PDF)
+                  📄 Upload your resume (PDF)
                 </h3>
                 <p className="text-slate-400 mb-4 sm:mb-6 text-sm sm:text-base">PDF files only Get instant analysis</p>
                 <input type="file" accept=".pdf" onChange={handleFileUpload} disabled={!aiReady}
