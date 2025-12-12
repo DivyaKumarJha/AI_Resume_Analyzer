@@ -125,6 +125,7 @@ function App() {
       handleFileUpload({ target: { files: [file] } });
     }
   };
+  
 
 
   return (
